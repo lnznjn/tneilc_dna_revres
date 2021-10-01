@@ -1,3 +1,8 @@
+#! /usr/bin/python3
+#-*- encoding: utf-8 -*-
+#Auther: kiyotaka
+#Time: 2021/9/12
+
 import socket
 import sys
 from threading import Thread
