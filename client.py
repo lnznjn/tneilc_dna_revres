@@ -1,3 +1,8 @@
+#! /usr/bin/python3
+#-*- encoding: utf-8 -*-
+#Auther: kiyotaka
+#Time: 2021/9/12
+
 import socket
 import os
 import sys
@@ -6,7 +11,7 @@ import time
 def client():
     try:
         clie = socket.socket()
-        clie.connect(("192.168.124.28", 6666))
+        clie.connect(("0.0.0.0", 6666))
 
     except socket.error as e:
         sys.exit(1)
